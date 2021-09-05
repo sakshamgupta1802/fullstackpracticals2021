@@ -1,20 +1,52 @@
-.header{
-    background-color: grey;
-    color: aliceblue;
-    padding: 10px;
-    font-size: 5 px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+*{padding: 0;margin: 0;box-sizing: border-box;}
+
+.menu {
+    background-color:rgb(34, 14, 6);
+    text-align: center;  
 }
 
-.banner{
-    background-color: aqua;
-    color : white;
-    text-align: center;
-    padding: 20vw;
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    
+.menu ul{
+    list-style-type: none;
+    display: inline-flex;
 
+}
 
+.menu ul li{
+    display: inline;
+    margin: 20px;  
+    padding: 10px;
+}
+
+ul li a{
+    color: white;
+    text-decoration-line: none;
+    text-transform:uppercase;
+}
+
+.menu ul li a:hover, #home{
+    background-color: yellowgreen;
+    border-radius: 4px;
+    color: chocolate;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.trend {
+    display: none;
+}
+
+.menu ul li:hover .trend{
+    display: block;
+    position: absolute;
+    background-color: rgb(34, 14, 6);
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.menu ul li:hover .trend ul{
+    display:flexbox;
+}
+
+.menu ul li:hover .trend ul li:hover{
+    background-color: transparent;
 }
