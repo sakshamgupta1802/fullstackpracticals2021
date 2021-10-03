@@ -2,70 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practical-6</title>
+    <title>Div-tag</title>
+    <link rel="stylesheet" href="style6.css">    
 </head>
 <body>
-    <h1>PRACTICAL-6: CREATE FOLLOWING LAYOUT USING CSS LAYOUT PROPERTIES.</h1>
-    <div class="container">
+    <h2 style="text-align: center;">CREATE THE FOLLOWING LAYOUT USING CSS LAYOUT PROPERTY</h2><br><br>
 
-        <!--1st card -->
-        <div class="card">
-            <div class="image">
-                <img src="Html.jpg" alt="Html">
+    <div id="container">
+        <div class="Box" id="box1">
+            <div id="image">
+                <img src="html.png" alt="Introduction to HTML" width="220px" height="110px">
             </div>
-            <div class="text">
-                <h3>Introduction to HTML</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi nesciunt facilis eos eum corrupti ad voluptatem ipsum autem amet ut, rem impedit reiciendis at vero est accusamus laboriosam?..........................</p>
+            <div id="heading">
+            <h3>Introduction to HTML</h3> </div>
+            <div id="paragraph">
+                <p>HTML stands for Hypertext Markup Language, and it is the most widely used language to write Web Pages.
+                    Hypertext refers to the way in which Web pages (HTML documents) are linked together.
+                    An HTML document is a text document, and it is human-readable.
+                    
+                </p>
             </div>
-            <div class="button">
-                <a href="https://www.w3schools.com/">Read More</a>
-            </div>
-        </div>
-
-        <!--2nd card -->
-        <div class="card">
-            <div class="image">
-                <img src="Html.jpg" alt="Html">
-            </div>
-            <div class="text">
-                <h3>Introduction to HTML</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi nesciunt facilis eos eum corrupti ad voluptatem ipsum autem amet ut, rem impedit reiciendis at vero est accusamus laboriosam?..........................</p>
-            </div>
-            <div class="button">
-                <a href="https://www.w3schools.com/">Read More</a>
-            </div>
-        </div>
-
-        <!--3rd card -->
-        <div class="card">
-            <div class="image">
-                <img src="Html.jpg" alt="Html">
-            </div>
-            <div class="text">
-                <h3>Introduction to HTML</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi nesciunt facilis eos eum corrupti ad voluptatem ipsum autem amet ut, rem impedit reiciendis at vero est accusamus laboriosam?..........................</p>
-            </div>
-            <div class="button">
-                <a href="https://www.w3schools.com/">Read More</a>
-            </div>
-        </div>
-
-        <!--4th card -->
-        <div class="card">
-            <div class="image">
-                <img src="Html.jpg" alt="Html">
-            </div>
-            <div class="text">
-                <h3>Introduction to HTML</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi nesciunt facilis eos eum corrupti ad voluptatem ipsum autem amet ut, rem impedit reiciendis at vero est accusamus laboriosam?..........................</p>
-            </div>
-            <div class="button">
-                <a href="https://www.w3schools.com/">Read More</a>
+            <div id="read_more">
+                <a href="html.html">Read More</a>
             </div>
         </div>
     </div>
+    <div id="container">
+        <div class="Box" id="box2">
+            <div id="image">
+                <img src="css.png" alt="Introduction to CSS" width="220px" height="110px">
+            </div>
+            <div id="heading">
+            <h3>Introduction to CSS</h3></div>
+            <div>
+                <p>CSS is short for Cascading Style Sheets, and is the preferred way for setting the look and 
+                    feel of a website. CSS is a markup language responsible for how your web pages will look like. 
+                    It controls the colors, fonts, and layouts of your website elements..
+                    
+                </p>
+            </div>
+            <div id="read_more">
+                <a href="css.html">Read More</a>
+            </div>
+        </div>
+    </div>
+    <div id="container">
+        <div class="Box" id="box3">
+            <div id="image">
+                <img src="js.png" alt="Introduction to JS" width="220px" height="110px">
+            </div>
+            <div id="heading">
+            <h3>Introduction to JavaScript</h3></div>
+            <div>
+                <p>JavaScript is a client-side scripting language of web developed by Netscape in 1995 
+                    with the name LiveScript. JavaScript is used to build interactive websites with dynamic features and to validate form data. 
+                    JavaScript is high-level, <!--dynamic and browser interpreted programming language-->
+                    
+                </p>
+            </div>
+            <div id="read_more">
+                <a href="js.html">Read More</a>
+            </div>
+        </div>
+    </div>
+    <div id="container">
+        <div class="Box" id="box4">
+            <div id="image">
+                <img src="bootstrap.png" alt="Introduction to BootStrap" width="220px" height="110px">
+            </div>
+            <div id="heading">
+            <h3>Introduction to BootStrap</h3></div> 
+            <div>
+                <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first
+                     front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, 
+                    forms,  and other interface component
+                </p>
+            </div>
+            <div id="read_more">
+                <a href="bootstap.html">Read More</a>
+            </div>
+        </div>
+        </div>
+</div>
 </body>
 </html>
